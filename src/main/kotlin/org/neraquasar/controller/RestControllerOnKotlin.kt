@@ -9,6 +9,6 @@ class RestControllerOnKotlin {
 
     @RequestMapping("rest-kotlin")
     fun rest(@RequestParam(value = "name", required = false, defaultValue = "qqq") name: String): String {
-        return "zxcvb $name";
+        return "zxcvb $name"
     }
 }
