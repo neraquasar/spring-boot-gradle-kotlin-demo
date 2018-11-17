@@ -2,7 +2,10 @@ plugins {
     kotlin("jvm") version "1.3.10"
     id("org.jetbrains.dokka") version "0.9.16"
 //    id("war")
+    id("org.springframework.boot") version "2.1.0.RELEASE"
 }
+
+apply(plugin = "org.springframework.boot")
 
 repositories {
     jcenter()
